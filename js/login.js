@@ -14,6 +14,7 @@ document.getElementById('user-login-button').addEventListener('click', function(
         document.getElementById('invalid-user').style.display = 'block';
     }
 
+    // Clear field value
     userEmailField.value = '';
     userPassField.value = '';
 });
